@@ -2,7 +2,6 @@ import { useSelector } from "react-redux";
 
 // Styles
 import * as Styles from "./styles";
-import rootReducer from "../../redux/root-reducer";
 import CartItem from '../cart-item/index'
 import { selectProductsTotalPrice } from "../../redux/cart/cart.selectors";
 
